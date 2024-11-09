@@ -5,7 +5,7 @@ A powerful and flexible online HTML editor that allows users to write HTML code,
 ## Features
 
 - **Real-time Preview**: Write HTML code and instantly preview it within the editor.
-- **Multiple Download Options**: Download the HTML code in various formats, including `.html`, `.txt`, `.doc`, `.docx`, `.rtf`, and `.zip`.
+- **Multiple Download Options**: Download the HTML code in various formats, including `.html`, `.txt`, `.doc`, `.docx`, `.rtf`, and `.zip` and `.bruh`.
 - **Responsive Design**: The interface is designed to work on both desktop and mobile devices.
 
 ## Available Formats for Download
@@ -15,8 +15,8 @@ A powerful and flexible online HTML editor that allows users to write HTML code,
 3. **.doc** — Microsoft Word document.
 4. **.docx** — Microsoft Word document (modern format).
 5. **.rtf** — Rich Text Format file.
-6. **.zip** — A compressed ZIP file containing the HTML code.
-
+6. **.zip** — A compressed ZIP file containing the HTML code. 
+7. **.bruh** — A Custom file format that shows code 
 ## Getting Started
 
 1. Clone or download the repository to your local machine.
