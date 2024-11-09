@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudHyper Enhanced HTML Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>CloudHyper Enhanced HTML Editor</h1>
+  <textarea id="codeInput" placeholder="Write your HTML code here..." oninput="updatePreview()"></textarea>
+  <div class="iframe-container">
+    <iframe id="previewFrame" title="Live Preview"></iframe>
+  </div>
+  <div class="buttons">
+    <button class="button" onclick="downloadFile('html')">Download as .html</button>
+    <button class="button" onclick="downloadFile('txt')">Download as .txt</button>
+    <button class="button" onclick="downloadFile('doc')">Download as .doc</button>
+    <button class="button" onclick="downloadFile('docx')">Download as .docx</button>
+    <button class="button" onclick="downloadFile('rtf')">Download as .rtf</button>
+    <button class="button" onclick="downloadFile('zip')">Download as .zip</button>
+  </div>
+</div>
+
+</body>
+      </html>
