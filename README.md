@@ -1,4 +1,4 @@
-# CloudHyper Enhanced HTML Editor
+# CloudHyper 
 
 A powerful and flexible online HTML editor that allows users to write HTML code, see real-time previews, and download the code in various formats. This editor is perfect for quick prototyping and offers several options for exporting your code.
 
