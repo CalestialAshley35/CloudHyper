@@ -12,7 +12,6 @@ async function downloadFile(type) {
   let extension = type;
 
   if (type === "zip") {
-    // Create a .zip file using JSZip
     const zip = new JSZip();
     zip.file("code.html", code);
     const blob = await zip.generateAsync({ type: "blob" });
@@ -39,6 +38,10 @@ async function downloadFile(type) {
     case "rtf":
       mimeType = "application/rtf";
       break;
+    case "bruh": // Handling .bruh type
+      mimeType = "text/html";
+      extension = "bruh"; // Custom file extension
+      break;
   }
 
   const blob = new Blob([code], { type: mimeType });
@@ -48,4 +51,4 @@ async function downloadFile(type) {
   link.download = `code.${extension}`;
   link.click();
   URL.revokeObjectURL(url);
-}
+                        }
